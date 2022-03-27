@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+
+{% block content %}
+  <h2>About this site</h2>
+    {% csrf_token %}
+    {{ form.as_p }}
+{% endblock %}

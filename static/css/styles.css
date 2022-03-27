@@ -101,8 +101,19 @@ top: 146px;
 background: #B470D5;*/
 
 /* About us */
-
-.topmenu.topmenu-list a #about-us {
+.topmenu.topmenu-list {
+	background-color: #B470D4;
+	overflow: hidden;
+}
+.topmenu.topmenu-list li a.active {
+	background-color: #723F8A;
+	color: white;
+}
+.topmenu.topmenu-list li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topmenu.topmenu-list li a #about-us {
 	position: absolute;
 	width: 366px;
 	height: 90px;
@@ -131,7 +142,7 @@ background: #B470D5;*/
 
 /* Contacts */
 
-.topmenu.topmenu-list a #contacts { 
+.topmenu.topmenu-list li a #contacts { 
 	position: absolute;
 	width: 381px;
 	height: 120px;
@@ -160,7 +171,7 @@ background: #B470D5;
 
 /* Home page */
 
-.topmenu.topmenu-list a #home-page {
+.topmenu.topmenu-list li a #home-page {
 	position: absolute;
 	width: 361px;
 	height: 94px;
@@ -189,7 +200,7 @@ background: #B470D5;
 
 /* New titles */
 
-.topmenu.topmenu-list a #new-titles {
+.topmenu.topmenu-list li a #new-titles {
 
 	position: absolute;
 	width: 100px;

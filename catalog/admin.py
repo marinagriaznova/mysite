@@ -1,8 +1,6 @@
-from django.contrib import admin
-from .models import AuthorModel, AnimeModel, GenreModel
+'''from django.contrib import admin
+from .models import AnimeModel
 
 # admin.site.register(AuthorModel)
 
-admin.site.register(StudioModel)
-admin.site.register(AnimeModel)
-admin.site.register(GenreModel)
+admin.site.register(AnimeModel)'''

@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+
+{% block content %}
+  <h2>All recently posted titles</h2>
+    {% csrf_token %}
+    {{ form.as_p }}
+{% endblock %}
